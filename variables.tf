@@ -3,11 +3,11 @@ variable "sg_name" {
 }
 
 variable "sg_description" {
-  type="string"
+  type=string
 }
 
 variable "vpc_id" {
-  type="string"
+  type=string
 }
 
 variable "sg_tags" {
@@ -23,7 +23,5 @@ variable "environment" {
 type = string
 }
 
-variable "project" {
-type = string
-}
+
 
